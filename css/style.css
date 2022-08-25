@@ -1,0 +1,69 @@
+* {
+    font-family: 'Segoe UI';
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #FFF;
+}
+
+.card {
+    background-image: linear-gradient(#333, #333);
+    overflow: hidden;
+    border-radius: 16px;
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card .img {
+    background-image: url('../resources/Mars.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 360px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .img span {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    text-transform: uppercase ;
+}
+
+.card .content {
+    padding: 20px;
+}
+
+.card .content .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .content p {
+    margin-bottom: 0px;
+}
+
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 100;
+    opacity: .7;
+}
+
+.card .arrow {
+    padding-bottom: 15px;
+    font-size: 28px;
+}
